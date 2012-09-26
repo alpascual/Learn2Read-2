@@ -1,27 +1,26 @@
 //
-//  LearnReadAppDelegate.m
-//  LearnRead
+//  AppDelegate.m
+//  TestDevConnections
 //
-//  Created by Albert Pascual on 10/7/11.
-//  Copyright 2011 Al. All rights reserved.
+//  Created by Albert Pascual on 11/3/11.
+//  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "LearnReadAppDelegate.h"
+#import "AppDelegate.h"
 
-@implementation LearnReadAppDelegate
+#import "ViewController.h"
+
+@implementation AppDelegate
 
 @synthesize window = _window;
-@synthesize sound;
-@synthesize learningController;
+@synthesize viewController = _viewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    
-   /* self.sound = [[[SoundManager alloc] init] autorelease];
-    [self.sound addSoundToQueue:@"welcome"];
-    [self.sound playQueue];*/
-    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+    self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -63,30 +62,6 @@
      Save data if appropriate.
      See also applicationDidEnterBackground:.
      */
-}
-
-- (void)dealloc
-{
-    [_window release];
-    [super dealloc];
-}
-
-- (IBAction)StartLearning:(id)sender
-{    
-    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
-    {
-        self.learningController = [[LearningViewController alloc] initWithNibName:@"iPadLearningViewController" bundle:nil];
-    }
-    
-    else
-    {
-        self.learningController = [[LearningViewController alloc] initWithNibName:@"LearningViewController" bundle:nil];
-    }
-    
-    self.learningController.modalPresentationStyle = UIModalPresentationFullScreen;
-    
-    [self.window addSubview: self.learningController.view];
-    [self.window makeKeyAndVisible];
 }
 
 @end
