@@ -10,4 +10,5 @@
 
 @interface ViewController : UIViewController
 
+@property (strong) IBOutlet UILabel *helloWorldLabel;
 @end

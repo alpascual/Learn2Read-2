@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @implementation ViewController
+@synthesize helloWorldLabel;
 
 - (void)didReceiveMemoryWarning
 {
@@ -22,6 +23,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.helloWorldLabel.text = @"Hello World";
 }
 
 - (void)viewDidUnload
@@ -29,6 +32,8 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+    
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated
