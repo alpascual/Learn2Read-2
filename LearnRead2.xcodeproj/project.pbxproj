@@ -41,6 +41,9 @@
 		7640991614425312009A08E2 /* yes.wav in Resources */ = {isa = PBXBuildFile; fileRef = 764098F514425312009A08E2 /* yes.wav */; };
 		7640991714425312009A08E2 /* z.wav in Resources */ = {isa = PBXBuildFile; fileRef = 764098F614425312009A08E2 /* z.wav */; };
 		7640991E14426FDC009A08E2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7640991D14426FDC009A08E2 /* Default.png */; };
+		7687F3EC16D1342C00B74EB1 /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7687F3EB16D1342C00B74EB1 /* SoundManager.m */; };
+		7687F3EF16D1346400B74EB1 /* PlayInternetSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 7687F3EE16D1346400B74EB1 /* PlayInternetSound.m */; };
+		7687F3F116D1349300B74EB1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7687F3F016D1349300B74EB1 /* Default-568h@2x.png */; };
 		76BABC6C14480A580045D47D /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 76BABC6914480A580045D47D /* Icon-72.png */; };
 		76BABC6D14480A580045D47D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 76BABC6A14480A580045D47D /* Icon.png */; };
 		76BABC6E14480A580045D47D /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76BABC6B14480A580045D47D /* Icon@2x.png */; };
@@ -51,7 +54,6 @@
 		76BB63EF143F828100658840 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BB63EE143F828100658840 /* main.m */; };
 		76BB63FA143F828100658840 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76BB63F8143F828100658840 /* MainWindow_iPhone.xib */; };
 		76BB6401143F828100658840 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76BB63FF143F828100658840 /* MainWindow_iPad.xib */; };
-		76BB640E143F83A200658840 /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BB640D143F83A200658840 /* SoundManager.m */; };
 		76BB6412143F84F000658840 /* congratulations.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76BB6410143F84F000658840 /* congratulations.wav */; };
 		76BB6413143F84F000658840 /* welcome.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76BB6411143F84F000658840 /* welcome.wav */; };
 		76BB6415143F853000658840 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76BB6414143F853000658840 /* CoreAudio.framework */; };
@@ -59,7 +61,6 @@
 		76BB641F143F872100658840 /* LearningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BB641D143F872100658840 /* LearningViewController.m */; };
 		76BB6420143F872100658840 /* LearningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76BB641E143F872100658840 /* LearningViewController.xib */; };
 		76BB6425143F874500658840 /* iPadLearningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76BB6423143F874500658840 /* iPadLearningViewController.xib */; };
-		76BB642C143F91AD00658840 /* PlayInternetSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BB642B143F91AD00658840 /* PlayInternetSound.m */; };
 		76BB642F143F92DE00658840 /* wordList.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BB642E143F92DE00658840 /* wordList.m */; };
 		76BB6432143F953B00658840 /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BB6431143F953B00658840 /* AudioStreamer.m */; };
 		76BB6439143FD0EE00658840 /* PSStoreButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BB6438143FD0EE00658840 /* PSStoreButton.m */; };
@@ -117,6 +118,11 @@
 		764098F514425312009A08E2 /* yes.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = yes.wav; path = Resources/yes.wav; sourceTree = "<group>"; };
 		764098F614425312009A08E2 /* z.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = z.wav; path = Resources/z.wav; sourceTree = "<group>"; };
 		7640991D14426FDC009A08E2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
+		7687F3EA16D1342C00B74EB1 /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoundManager.h; path = "../../../Geography Tutor/Shared/SoundManager.h"; sourceTree = "<group>"; };
+		7687F3EB16D1342C00B74EB1 /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SoundManager.m; path = "../../../Geography Tutor/Shared/SoundManager.m"; sourceTree = "<group>"; };
+		7687F3ED16D1346400B74EB1 /* PlayInternetSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayInternetSound.h; path = ../../../SpellingBee/SpellingBee/PlayInternetSound.h; sourceTree = "<group>"; };
+		7687F3EE16D1346400B74EB1 /* PlayInternetSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayInternetSound.m; path = ../../../SpellingBee/SpellingBee/PlayInternetSound.m; sourceTree = "<group>"; };
+		7687F3F016D1349300B74EB1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		76BABC6914480A580045D47D /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Resources/Icon-72.png"; sourceTree = "<group>"; };
 		76BABC6A14480A580045D47D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
 		76BABC6B14480A580045D47D /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Icon@2x.png"; sourceTree = "<group>"; };
@@ -130,8 +136,6 @@
 		76BB63F0143F828100658840 /* LearnRead2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LearnRead2-Prefix.pch"; sourceTree = "<group>"; };
 		76BB63F9143F828100658840 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
 		76BB6400143F828100658840 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
-		76BB640C143F83A200658840 /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoundManager.h; path = "../../Geography Tutor/Shared/SoundManager.h"; sourceTree = "<group>"; };
-		76BB640D143F83A200658840 /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SoundManager.m; path = "../../Geography Tutor/Shared/SoundManager.m"; sourceTree = "<group>"; };
 		76BB6410143F84F000658840 /* congratulations.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = congratulations.wav; path = Resources/congratulations.wav; sourceTree = "<group>"; };
 		76BB6411143F84F000658840 /* welcome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = welcome.wav; path = Resources/welcome.wav; sourceTree = "<group>"; };
 		76BB6414143F853000658840 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
@@ -141,8 +145,6 @@
 		76BB641D143F872100658840 /* LearningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LearningViewController.m; sourceTree = "<group>"; };
 		76BB641E143F872100658840 /* LearningViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LearningViewController.xib; sourceTree = "<group>"; };
 		76BB6423143F874500658840 /* iPadLearningViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPadLearningViewController.xib; sourceTree = "<group>"; };
-		76BB642A143F91AD00658840 /* PlayInternetSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayInternetSound.h; path = ../../SpellingBee/SpellingBee/PlayInternetSound.h; sourceTree = "<group>"; };
-		76BB642B143F91AD00658840 /* PlayInternetSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayInternetSound.m; path = ../../SpellingBee/SpellingBee/PlayInternetSound.m; sourceTree = "<group>"; };
 		76BB642D143F92DE00658840 /* wordList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordList.h; sourceTree = "<group>"; };
 		76BB642E143F92DE00658840 /* wordList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wordList.m; sourceTree = "<group>"; };
 		76BB6430143F953B00658840 /* AudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStreamer.h; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 		76BB63D3143F828100658840 = {
 			isa = PBXGroup;
 			children = (
+				7687F3F016D1349300B74EB1 /* Default-568h@2x.png */,
 				76BB64521440069100658840 /* iAd.framework */,
 				76BB64501440067F00658840 /* ImageIO.framework */,
 				76BB6442143FD3C200658840 /* AVFoundation.framework */,
@@ -276,6 +279,10 @@
 		76BB640B143F833E00658840 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				7687F3ED16D1346400B74EB1 /* PlayInternetSound.h */,
+				7687F3EE16D1346400B74EB1 /* PlayInternetSound.m */,
+				7687F3EA16D1342C00B74EB1 /* SoundManager.h */,
+				7687F3EB16D1342C00B74EB1 /* SoundManager.m */,
 				76FFA79814454D52000CBF4C /* RootViewController.h */,
 				76FFA79914454D52000CBF4C /* RootViewController.m */,
 				76FFA79514454CD6000CBF4C /* AppDelegate_Shared.h */,
@@ -286,10 +293,6 @@
 				76BB6431143F953B00658840 /* AudioStreamer.m */,
 				76BB642D143F92DE00658840 /* wordList.h */,
 				76BB642E143F92DE00658840 /* wordList.m */,
-				76BB642A143F91AD00658840 /* PlayInternetSound.h */,
-				76BB642B143F91AD00658840 /* PlayInternetSound.m */,
-				76BB640C143F83A200658840 /* SoundManager.h */,
-				76BB640D143F83A200658840 /* SoundManager.m */,
 				76BB641C143F872100658840 /* LearningViewController.h */,
 				76BB641D143F872100658840 /* LearningViewController.m */,
 			);
@@ -387,7 +390,7 @@
 		76BB63D5143F828100658840 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Al;
 			};
 			buildConfigurationList = 76BB63D8143F828100658840 /* Build configuration list for PBXProject "LearnRead2" */;
@@ -466,6 +469,7 @@
 				76BABC6E14480A580045D47D /* Icon@2x.png in Resources */,
 				76EC9A2A1449F7D10085B6E3 /* exit.wav in Resources */,
 				76E87C5214511C1A004C7AD6 /* question.png in Resources */,
+				7687F3F116D1349300B74EB1 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,15 +481,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				76BB63EF143F828100658840 /* main.m in Sources */,
-				76BB640E143F83A200658840 /* SoundManager.m in Sources */,
 				76BB641F143F872100658840 /* LearningViewController.m in Sources */,
-				76BB642C143F91AD00658840 /* PlayInternetSound.m in Sources */,
 				76BB642F143F92DE00658840 /* wordList.m in Sources */,
 				76BB6432143F953B00658840 /* AudioStreamer.m in Sources */,
 				76BB6439143FD0EE00658840 /* PSStoreButton.m in Sources */,
 				76EC44401441EE590096D49E /* NACounter.m in Sources */,
 				76FFA79714454CD6000CBF4C /* AppDelegate_Shared.m in Sources */,
 				76FFA79A14454D52000CBF4C /* RootViewController.m in Sources */,
+				7687F3EC16D1342C00B74EB1 /* SoundManager.m in Sources */,
+				7687F3EF16D1346400B74EB1 /* PlayInternetSound.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,7 +542,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.2.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -556,7 +560,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.2.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -574,8 +578,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LearnRead/LearnRead2-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "LearnRead/LearnRead2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = LearnRead2;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -591,8 +597,10 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LearnRead/LearnRead2-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "LearnRead/LearnRead2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = LearnRead2;
 				WRAPPER_EXTENSION = app;
 			};
@@ -610,7 +618,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.2.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -629,8 +637,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LearnRead/LearnRead2-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "LearnRead/LearnRead2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = LearnRead2;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
